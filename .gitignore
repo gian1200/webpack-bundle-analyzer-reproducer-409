@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+coverage
+dist
+target
+public
+.scannerwork
+.sonar
+dependency-check-bin
+dependency-check-reports

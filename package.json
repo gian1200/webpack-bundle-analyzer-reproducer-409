@@ -1,0 +1,24 @@
+{
+	"name": "webpack-bundle-analyzer-reproducer-409",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build:dev": "webpack --config .config/webpack.dev.mjs",
+		"build:dev:watch": "npm run build:dev -- --watch",
+		"build:prod": "webpack --config .config/webpack.prod.mjs",
+		"build": "npm run build:dev",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"webpack": "^5.100.2",
+		"webpack-cli": "^6.0.1",
+		"webpack-merge": "^6.0.1"
+	},
+	"devDependencies": {
+		"webpack-bundle-analyzer": "^4.10.2"
+	}
+}
